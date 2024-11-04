@@ -53,20 +53,38 @@ hr {
 }
 
 /* ------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:512px) and (max-width:768px) {
+  :root {
+    font-size: 12px;
+  }
+  #hero svg{
+    display: none;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:512px) {
+  :root {
+    font-size: 11px;
+  }
+  #hero svg{
+    display: none;
+  }
+  #contact {
+    word-break: break-all;
+  }
+}
 @media screen and (max-width:768px) {
   .location, .helloText {
     display: none;
-  }
-  :root {
-    font-size: 12px;
   }
 }
 @media screen and (max-width:1024px) {
   .location {
     display: none;
-  }
-  .marquee {
-    margin-top: 10rem;
   }
   #hero .title {
     flex-wrap: wrap;
@@ -74,15 +92,8 @@ hr {
   #hero .info {
     flex-wrap: wrap;
   }
-  :root {
-    font-size: 12px;
-  }
 }
-@media screen and (max-width:1280px) {
-  .marquee {
-    margin-top: 20rem;
-  }
-}
+
 /* ------------------------------------------------------------------------------------------------- */
 
 .button {
@@ -448,7 +459,7 @@ body::before {
   position: relative;
   padding: var(--gap);
   margin: 2rem;
-  height: 40vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
 }
@@ -509,7 +520,7 @@ body::before {
   font-weight: 400;
 }
 #contact p span a{
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--text-color);
   transition: .2s;
   position: relative;
