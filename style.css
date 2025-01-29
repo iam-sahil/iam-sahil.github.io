@@ -489,8 +489,15 @@ body::before {
   overflow: hidden;
   position: relative;
   height: 2.8em;
+  width: fit-content;
   padding-right: 3.3em;
 }
+#contact #resume_btn {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+
 #contact .cssbuttons-io-button .icon {
   background: white;
   margin-left: 1em;
