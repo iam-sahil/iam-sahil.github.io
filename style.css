@@ -519,7 +519,7 @@ footer .top .cols .col2 {
 }
 @media (max-width: 1440px) {
     footer {
-        margin: 4rem 24rem;
+        margin: 4rem 12rem;
         padding: 2rem 2.5rem;
     }
     footer .top .cols {
@@ -528,7 +528,7 @@ footer .top .cols .col2 {
 }
 @media (max-width: 1280px) {
     footer {
-        margin: 3rem 15rem;
+        margin: 3rem 9rem;
         padding: 2rem 1.5rem;
     }
     footer .top .cols {
@@ -540,7 +540,7 @@ footer .top .cols .col2 {
 }
 @media (max-width: 1024px) {
     footer {
-        margin: 2.5rem 10rem;
+        margin: 2.5rem 0rem;
         padding: 1.5rem 1rem;
     }
     footer .top .cols {
@@ -552,8 +552,7 @@ footer .top .cols .col2 {
 }
 @media (max-width: 768px) {
     footer {
-        margin: 1.5rem 9rem;
-        padding: 1rem 0.8rem;
+        margin: 1.5rem 0rem;
     }
     footer .top .cols {
         gap: 1rem;
