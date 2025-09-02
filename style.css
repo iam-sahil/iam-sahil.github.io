@@ -24,7 +24,7 @@
 :root {
     --back-color: #0e1011;
     --text-color: #f1f1f1;
-    --primary-color: #ff7b00;
+    --primary-color: #ff7b20;
     --accent: #1f1f1f;
 
     --border: 2px var(--accent) solid;
